@@ -4,6 +4,7 @@ let dodger = document.getElementById("dodger");
 
 
 function moveDodgerLeft() {
+  
 if (e.key === "ArrowLeft" || left>0) {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
