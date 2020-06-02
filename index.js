@@ -8,8 +8,8 @@ if (e.key === "ArrowLeft" && left>0) {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
- 
-    dodger.style.left = `${left - 1}px`;
+  dodger.style.left = `${left - 1}px`;
+   
   }
 
 }
