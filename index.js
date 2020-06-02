@@ -24,7 +24,7 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener("keydown", moveDodgerLeft);
+document.addEventListener("keydown", moveDodgerLeft());
  
    
   
