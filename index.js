@@ -1,6 +1,7 @@
 // Your code here
 
 let dodger = document.getElementById("dodger");
+dodger.style.bottom = "0px";
 /*
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
