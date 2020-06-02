@@ -12,7 +12,7 @@ if (e.key === "ArrowLeft") {
     dodger.style.left = `${left - 1}px`;
   }
 }
-
+}
 
 function moveDodgerRight() {
   let rightNumbers = dodger.style.left.replace("px", "");
@@ -23,9 +23,9 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener("keydown", function(e) {
-  if (e.key === "ArrowLeft") {
-    moveDodgerLeft();
+document.addEventListener("keydown",
+ 
+    moveDodgerLeft;
   }
 });
 
